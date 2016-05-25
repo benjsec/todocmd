@@ -1,0 +1,6 @@
+token
+*.pyc
+__pycache__/*
+*.egg-info
+build/
+dist/
