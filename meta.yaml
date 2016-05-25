@@ -1,0 +1,22 @@
+package:
+  name: todo
+  version: "0.0.1"
+
+source:
+  path: .
+
+build:
+  number: 4
+  script: python setup.py install
+
+requirements:
+  build:
+    - python >=3
+    # - pytodoist
+  run:
+    - python >=3
+    - argparse # [py26]
+    # - pytodoist
+
+about:
+  summary: A cmdline tool for quickly adding a todo to todoist
